@@ -8,6 +8,7 @@ RUN apk upgrade
 RUN apk add --no-cache libc6-compat
 RUN apk add --no-cache jq
 RUN apk add --no-cache wget
+RUN apk add --no-cache nano
 RUN wget -O /usr/local/bin/infinitive https://github.com/acd/infinitive/releases/download/v0.2/infinitive.amd64
 #COPY data/infinitive.amd64 infinitive.bin
 #COPY data/run.sh /usr/local/bin/infinitive.sh
