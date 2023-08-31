@@ -1,7 +1,7 @@
 FROM alpine:latest
 ENV LANG C.UTF-8
 WORKDIR /
-EXPOSE 8081
+#EXPOSE 8081
 RUN apk update 
 RUN apk upgrade
 RUN apk add --no-cache libc6-compat
